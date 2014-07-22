@@ -10,6 +10,8 @@
 		B7B663DA197E36BA0098ED8C /* XCBotFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B663D9197E36BA0098ED8C /* XCBotFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B663E0197E36BA0098ED8C /* XCBotFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B663D4197E36BA0098ED8C /* XCBotFramework.framework */; };
 		B7B663E7197E36BA0098ED8C /* XCBotFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B663E6197E36BA0098ED8C /* XCBotFrameworkTests.m */; };
+		B7B663FC197E38210098ED8C /* BotObject.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B663FA197E38210098ED8C /* BotObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B663FD197E38210098ED8C /* BotObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B663FB197E38210098ED8C /* BotObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		B7B663DF197E36BA0098ED8C /* XCBotFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCBotFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B663E5197E36BA0098ED8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B663E6197E36BA0098ED8C /* XCBotFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCBotFrameworkTests.m; sourceTree = "<group>"; };
+		B7B663FA197E38210098ED8C /* BotObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotObject.h; sourceTree = "<group>"; };
+		B7B663FB197E38210098ED8C /* BotObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				B7B663D9197E36BA0098ED8C /* XCBotFramework.h */,
+				B7B663FA197E38210098ED8C /* BotObject.h */,
+				B7B663FB197E38210098ED8C /* BotObject.m */,
 				B7B663D7197E36BA0098ED8C /* Supporting Files */,
 			);
 			path = XCBotFramework;
@@ -110,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B663DA197E36BA0098ED8C /* XCBotFramework.h in Headers */,
+				B7B663FC197E38210098ED8C /* BotObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B663FD197E38210098ED8C /* BotObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +405,7 @@
 				B7B663EC197E36BA0098ED8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7B663ED197E36BA0098ED8C /* Build configuration list for PBXNativeTarget "XCBotFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +414,7 @@
 				B7B663EF197E36BA0098ED8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

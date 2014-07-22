@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char XCBotFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <XCBotFramework/PublicHeader.h>
 
+#import <XCBotFramework/BotObject.h>
 
